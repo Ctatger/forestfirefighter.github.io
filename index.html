@@ -1,103 +1,42 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Forest Fire Figter by Zilly</title>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style>
-        h2 {
-            font-weight: 300;
-            color: #444;
-            font-size: 55px;
-            text-transform: uppercase;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        li {
-            float: left;
-        }
-
-        li a {
-            display: block;
-            color: white;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        li a:hover {
-            background-color: #f0792a;
-        }
-        #hero-image {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            height: 580px;
-            width: 83%;
-            padding-top: 1px;
-            background: url('home_banner.jpg');
-        }
-        #path-image {
-            
-            margin-left: 85px;
-            filter: brightness(65%);
-            height: 450px;
-            width: 450px;
-            padding-top: 1px;
-            float: left;
-            background: url('Path.png');
-        }
-        #hero-image h2 {
-            margin: 180px 0 40px 0;
-        }
-        .button-1 {
-            display: block;
-            text-align: center;
-            background: #444;
-            border-radius: 3px;
-            color: #fff;
-            width: 180px;
-            height: 50px;
-            font-size: 20px;
-            line-height: 50px;
-            margin: 0 auto;
-        }
-        .button-1:hover {
-            background-color: #f0792a;
-            color: #fff;
-        }
-    </style>
+    <meta charset="UTF-8"> 
+    <title>Forest Fire Fighter by Zilly</title>
+    <link rel="stylesheet" href="home.css">
+    <script src ="login.js"></script>
 </head>
-<body style="background-color:rgb(53, 46, 46);">
-    <ul>
-        <li><a href="home.html">Home</a></li>
-        <li><a href="https://youtube.com">Live Alerts</a></li>
-        <li><a href="login.html">My car</a></li>
-        <li><a href="Team.html">Team</a></li>
-        <li><a href="https://github.com/INSA-GEI/geiflix/tree/2022-Zilly">About</a></li>
-        
-    </ul>
-    <div id="hero-image">
-        <div class="wrapper">
-            <h2 style="color:white; font-family: sans-serif;"><strong><b>This land is our land</b> </strong><br/>
-                so we should protect it.</h2>
-            <a href="login.html" class="button-1">Get Started</a>
-        </div>
-    </div>
-        <div id="Project-Desc">
-            <div><h2 style="color: #fff;">Our vision</h2></div>
-            <div>
-                <img src="Path.png" style ="float: left;height: 325px; width: 450px; object-fit: cover; filter: brightness(65%);margin-left: 85px;">
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Zilly Team</h2>
             </div>
-        <div><p style="margin-left: 0px; color: #fff; font-size:x-large; width: 1700px; margin-top: 100px;">A fire outbreak is unpredictable and may happen in remote forest, thus not easily accessible.  As firefighters can’t be everywhere all the time, autonomous ways to detect forest fires may reduce intervention time and damages.
-            Here is our solution : The Forest Fire Fighter or F3 for short. An autonomous car that follows a predefined path given by firefighters and alerts them if it recognizes a fire outbreak. If a danger is identified, rescuers and nearby civilians will be alerted and informed of its location through this website.
-        </p></div>
-    </div>
-    </body>
+            <div class="menu">
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="https://youtube.com">LIVE ALERTS</a></li>
+                    <li><a href="login.html">MY CAR</a></li>
+                    <li><a href="Team.html">TEAM</a></li>
+                    <li><a href="https://github.com/INSA-GEI/geiflix/tree/2022-Zilly">ABOUT</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Forest Fire Fighter <br><span>THIS LAND IS OUR LAND SO WE SHOULD PROTECT IT.</span></h1>
+            <p class="par">
+                A fire outbreak is unpredictable and may happen in remote forest, thus not easily accessible. As firefighters can’t be everywhere all the time, autonomous ways to detect forest fires may reduce intervention time and damages. Here is our solution : The Forest Fire Fighter or F3 for short. An autonomous car that follows a predefined path given by firefighters and alerts them if it recognizes a fire outbreak. If a danger is identified, rescuers and nearby civilians will be alerted and informed of its location through this website.</p>
+                <button class="cn"><a href="#">GET STARTED</button>
+
+            <div class="form" action="home.html" method="POST">
+                <h2>Login Here</h2>
+                <input type="text" name="username" placeholder="Enter username" id="username">
+                <input type="password" name="password" placeholder="Enter password" id="password">
+                <button class="btnn" onclick="validate()">Login</button>
+
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
