@@ -4,7 +4,7 @@ function validate()
     var password=document.getElementById("password").value;
     if(username=="INSA" && password=="Zilly")
     {
-        alert("login succesfully");
+        window.open("coord.html");
         return false;
     }
     else
