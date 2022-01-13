@@ -60,9 +60,6 @@ function slideSuivante(){
     
 }
 
-
-
-
 function slidePrecedente(){
     items[count].classList.remove('active');
 
