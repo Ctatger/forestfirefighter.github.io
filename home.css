@@ -171,7 +171,6 @@ body{
 
 
 
-
 .form input{
     width: 240px;
     height: 35px;
@@ -258,4 +257,29 @@ body{
     line-height: 30px;
     text-align: justify;
 }
+
+.content .videos{
+    margin-top: 70px;
+}
+
+.videos video{
+    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width: 800px;
+}
+
+.videos h1{
+    color: #ff7200;
+    font-family: Arial;
+    letter-spacing: 9px;
+    font-size: 40px;
+}
+
+.videos .par{
+    
+    font-size: 18px;
+    letter-spacing: 5px;
+}
+
 
