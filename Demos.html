@@ -17,7 +17,7 @@
             <div class="menu">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="http://10.105.1.86:8001/">LIVE ALERTS</a></li>
+                    <li><a href="index_map.html">LIVE ALERTS</a></li>
                     <li><a href="coord.html">CAR CONTROL</a></li>
                     <li><a href="Team.html">TEAM</a></li>
                     <li><a href="Demos.html">DEMONSTRATION</a></li>
@@ -32,7 +32,9 @@
                 
                 <h1>Car control</h1>
                 <p class="par">
-                   Commentaires des videos
+                    Bellow, we can observe a 360-degree rotation of the car in order to detect a fire around.
+                    This action is perfomed when the car is arriving for each reached point.
+                    
                 </p>
                 <video controls="controls">
                     <source src="Demo-1.MOV">
@@ -40,11 +42,28 @@
 
                 <h1>website alerts</h1>
                 <p class="par">
-                    Commentaires des videos
+                    Bellow, we launched upstream the Flask server and we executed a generator of coordinates.
+Then, if no fire is detected we have a green icon at INSA localization either, in case of fire, we display
+a red icon with a photograph in the appropriate localization. 
+By refraishing the page we see the real time reading of other localizations.
+
                  </p>
+                 
                 <video controls="controls">
                     <source src="Demo-2.mp4">
                 </video>
+
+                <h1>Fire detection</h1>
+                <p class="par">
+                    In this demo, the machine learning algorythm scans for fire using the camera. If a fire is detected it sends the car position using the gps sensor. 
+                    The server receives the info and displays a pin on the map. A circle is also displayed to show the innacuracy of the position info
+
+                 </p>
+                 
+                <video controls="controls">
+                    <source src="demo3.mp4">
+                </video>
+
             </div>
         </div>
         

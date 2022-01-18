@@ -21,18 +21,19 @@ h2{
 }
 
 .btnn{
-    width: 240px;
+    width: 100px;
     height: 40px;
     background:#ff7200;
+    margin: auto;
     border: none;
     margin-top: 30px;
-    margin-left: 20px;
     margin-bottom: 30px;
     font-size: 18px;
     border-radius: 10px;
     cursor: pointer;
     color: white;
     text-decoration: none;
+    margin-left: 100px;
 }
 
 .btnn:hover{
@@ -43,4 +44,19 @@ h2{
 .btnn a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+}
+
+.content .par{
+    padding-left: 10px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 2px;
+    text-align: justify;
+    width: 700px;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    text-decoration: none;
 }
